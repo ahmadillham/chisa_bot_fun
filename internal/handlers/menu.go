@@ -17,11 +17,7 @@ func NewMenuHandler() *MenuHandler {
 
 // HandleMenu sends a list of all available commands.
 func (h *MenuHandler) HandleMenu(client *whatsmeow.Client, evt *events.Message) {
-	menu := `╔══════════════════════╗
-║    🤖 *CHISA BOT*    ║
-╚══════════════════════╝
-
-📋 *Daftar Perintah*
+	menu := `📋 *Daftar Perintah*
 Prefix: . ! /
 
 ━━━ 🎮 *Games* ━━━
